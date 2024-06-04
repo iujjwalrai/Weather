@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("./images/weather-todays.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
+.heading1{
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+}
+.active{
+    background-color: rgba(113, 110, 110, 0.438);
+    border: 2px solid rgba(38, 38, 38, 0.438);
+    backdrop-filter: blur(2px);
+    border-radius: 1rem;
+}
+.search:focus{
+    border: 3px solid rgba(32, 31, 31, 0.781);
+
+}
+.searching{
+    display: none !important;
+}
+.searching-aaya{
+    display: flex !important;
+}
+.content-gayab{
+   display: none !important;
+}
+.content-aaya{
+    display: flex !important;
+}
+.locBtn{
+    background-color: rgba(113, 110, 110, 0.447);
+    border-radius: 10px;
+    border: 3px solid rgba(32, 31, 31, 0.781)
+}
+.grant-location-gayab{
+    display: none !important;
+}
+.loading-gif{
+    display: none !important;
+}
+.loading-gif-aaya{
+    display: flex !important
+}
